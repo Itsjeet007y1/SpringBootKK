@@ -1,5 +1,6 @@
 package com.mtp.app;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -24,8 +25,18 @@ public class Sb04PeopleMgmtSpringDataApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		createPerson();
-		createPersons();
+		//createPerson();
+		//createPersons();
+		getPersonsByIds();
+	}
+
+	private void getPersonsByIds() {
+		List<Integer> ids = new ArrayList<>();
+		ids.add(3);
+		ids.add(9);
+		ids.add(11);
+		Iterable<Person> personList = peopleMgmtService.getPersonByIds(ids);
+		personList.forEach(System.out :: println);
 	}
 
 	private void createPersons() {

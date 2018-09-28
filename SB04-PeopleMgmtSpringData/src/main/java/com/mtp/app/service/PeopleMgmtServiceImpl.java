@@ -24,4 +24,9 @@ public class PeopleMgmtServiceImpl implements PeopleMgmtService {
 		return peopleMgmtDao.saveAll(personList);
 	}
 
+	@Override
+	public Iterable<Person> getPersonByIds(List<Integer> ids) {
+		return peopleMgmtDao.findAllById(ids);
+	}
+
 }
