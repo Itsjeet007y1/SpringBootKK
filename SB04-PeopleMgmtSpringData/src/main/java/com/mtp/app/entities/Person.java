@@ -7,7 +7,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import org.hibernate.annotations.DynamicUpdate;
+
 @Entity
+@DynamicUpdate
 public class Person {
 	@Id
 	@GeneratedValue
@@ -19,6 +22,9 @@ public class Person {
 	@Column(length = 80, nullable = false, unique = true)
 	private String email;
 	private Date doj;
+	public Person() {
+		super();
+	}
 	public Person(String firstName, String lastName, String email, Date doj) {
 		super();
 		this.firstName = firstName;

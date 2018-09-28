@@ -12,4 +12,8 @@ public interface PeopleMgmtService {
 
 	Iterable<Person> getPersonByIds(List<Integer> ids);
 
+	void deletePersonEntity(Person person);
+
+	void updatePersonEmailById(int i, String string);
+
 }
