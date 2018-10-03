@@ -1,0 +1,27 @@
+2018-10-03 14:58:51 [main] INFO  c.m.a.Sb15SpringBootLoggingApplication - Starting Sb15SpringBootLoggingApplication on admin-PC with PID 4380 (D:\SpringBootKK\SB15-SpringBootLogging\target\classes started by admin in D:\SpringBootKK\SB15-SpringBootLogging)
+2018-10-03 14:58:51 [main] INFO  c.m.a.Sb15SpringBootLoggingApplication - No active profile set, falling back to default profiles: default
+2018-10-03 14:58:51 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b26e945: startup date [Wed Oct 03 14:58:51 IST 2018]; root of context hierarchy
+2018-10-03 14:58:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-10-03 14:58:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-10-03 14:58:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-03 14:58:52 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;D:\Oracle\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\kotlinc\bin;C:\Program Files\nodejs\;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\Desktop;;.]
+2018-10-03 14:58:52 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-10-03 14:58:52 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1020 ms
+2018-10-03 14:58:53 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-10-03 14:58:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-03 14:58:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-03 14:58:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-03 14:58:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-03 14:58:53 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-03 14:58:53 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b26e945: startup date [Wed Oct 03 14:58:51 IST 2018]; root of context hierarchy
+2018-10-03 14:58:53 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.mtp.app.Sb15SpringBootLoggingApplication.getMsg()
+2018-10-03 14:58:53 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-03 14:58:53 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-03 14:58:53 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-03 14:58:53 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-03 14:58:53 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-03 14:58:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-10-03 14:58:53 [main] INFO  c.m.a.Sb15SpringBootLoggingApplication - Started Sb15SpringBootLoggingApplication in 1.961 seconds (JVM running for 2.509)
+2018-10-03 14:58:53 [main] ERROR c.m.a.Sb15SpringBootLoggingApplication - Message logged at error
+2018-10-03 14:58:53 [main] WARN  c.m.a.Sb15SpringBootLoggingApplication - Message logged at warn
+2018-10-03 14:58:53 [main] INFO  c.m.a.Sb15SpringBootLoggingApplication - Message logged at info
