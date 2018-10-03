@@ -1,9 +1,8 @@
 package com.mtp.app.service;
 
-import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import com.mtp.app.dao.PeopleMgmtDao;
@@ -15,4 +14,8 @@ public class PeopleMgmtServiceImpl implements PeopleMgmtService {
 	@Autowired
 	private PeopleMgmtDao peopleMgmtDao;
 
+	@Override
+	public CompletableFuture<Person> findByEmail(String email) {
+		return peopleMgmtDao.findByEmail(email);
+	}
 }
