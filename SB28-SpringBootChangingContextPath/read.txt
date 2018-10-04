@@ -1,0 +1,6 @@
+we can change the context path the application by following four ways as mentioned in the previous example: 
+
+1. Using application.properties
+2. Using environment 
+3. Using arguement
+4. Using programmatic approach
