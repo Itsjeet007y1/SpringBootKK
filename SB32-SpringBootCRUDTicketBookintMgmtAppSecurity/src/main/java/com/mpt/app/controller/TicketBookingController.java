@@ -33,7 +33,7 @@ public class TicketBookingController {
 		return ticketBookingService.TicketById(ticketId);
 	}
 	
-	@GetMapping(value = "ticket/allTickets")
+	@GetMapping(value = "admin/allTickets")
 	public Iterable<Ticket> getAllBookedTickets() {
 		return ticketBookingService.getAllTickets();
 	}
