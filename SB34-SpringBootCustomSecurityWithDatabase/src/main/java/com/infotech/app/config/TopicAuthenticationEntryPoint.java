@@ -17,6 +17,7 @@ public class TopicAuthenticationEntryPoint extends BasicAuthenticationEntryPoint
 		     AuthenticationException authException) throws IOException, ServletException {
 		response.addHeader("WWW-Authenticate", "Basic realm=\"" + getRealmName() + "\"");
 		response.sendError(HttpServletResponse.SC_UNAUTHORIZED, authException.getMessage());
+		System.out.println("Realm Name: "+getRealmName());
 	}
 	
 	@Override
