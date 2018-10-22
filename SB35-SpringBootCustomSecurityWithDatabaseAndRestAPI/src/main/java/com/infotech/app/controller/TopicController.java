@@ -25,7 +25,7 @@ public class TopicController {
 	@Autowired
 	private TopicService topicService;
 	
-	@GetMapping("/topic/{id}")
+	@PostMapping("/topic/{id}")
 	public ResponseEntity<Topic> getTopicById(@PathVariable("id") Integer id) {
 		Topic topic = topicService.getTopicById(id);
 		return new ResponseEntity<Topic>(topic, HttpStatus.OK);
